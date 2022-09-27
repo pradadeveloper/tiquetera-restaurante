@@ -1,0 +1,182 @@
+*{
+  font-family:sans-serif
+}
+
+#top-bar{
+  background-color: rgb(255, 208, 0); 
+  color: rgb(0, 0, 0);
+  text-align: center;
+  align-content: center;
+  margin-bottom: 0%;
+}
+
+/* Menu y navegacion */
+.container_navbar{
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-rows: 1fr;
+  justify-items: end;
+  flex-basis: auto;
+}
+
+
+#navbarNav{
+  position: absolute;
+  right: 5%;
+}
+
+.navbar{
+  padding: 5px; 
+}
+
+.navbar_menu{
+  position: absolute;
+  right: 5%;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin: 10px;
+}
+
+#container-fluid{
+  background-color: black;
+  margin: 0%;
+}
+
+#title{
+  color: white;
+}
+
+#suscripcion{
+  font-weight: bold;
+  color: coral;
+}
+
+#contact{
+  color: white;
+}
+
+/* banner principal */
+.main img{ 
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+
+.container_banner__primary{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  
+}
+
+.carousel{
+  position: relative;
+}
+
+
+
+#carousel .overlay{
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+  height: 100%;
+}
+
+.banner-primary{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+.parrafo-banner{
+  font-size: 30px;
+  color: white;
+  display: block;
+
+}
+
+.btn-button-banner{
+  background-color: rgb(5, 186, 5);
+  color: white;
+}
+.btn-button-banner:hover{
+  background-color: rgb(5, 186, 135);
+  color: rgb(227, 8, 172);
+}
+
+
+h2{
+  color: rgb(0, 0, 0);
+}
+
+h3{
+  color: white;
+}
+
+p{
+  color: rgb(0, 0, 0);
+}
+
+/* Seccion planes */
+
+.planes-text1{
+  margin-top: 20px;
+}
+
+section img{
+  max-height: 500px;
+}
+
+/* CONÓCENOS */
+#place-time{
+  background-color: rgb(25, 18, 18);
+  color: white;
+  margin: 30px;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+
+#conocenos{
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  font-size: large;
+}
+
+/* FOOTER */
+footer{
+  background-color: black;
+  color: aliceblue;
+  height: 300px;
+}
+
+.container_footer{
+  text-align: center;
+  align-items: center;
+  margin: 30px 30px 30px 30px;
+  padding: 100px;
+}
+
+.redes{
+  padding: 2px;
+  margin: 2px;
+}
