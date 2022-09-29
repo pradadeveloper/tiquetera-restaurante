@@ -22,11 +22,15 @@
 }
 
 
-#navbarNav{
+#navbar{
   position: absolute;
   right: 5%;
 }
 
+#text-and-button .btn-button-banner{
+  align-items: center;
+  margin: auto;
+}
 .navbar{
   padding: 5px; 
 }
@@ -58,7 +62,15 @@ li{
   color: coral;
 }
 
-#contact{
+#nav-contact{
+  color: white;
+}
+
+#nav-funcionamiento{
+  color: white;
+}
+
+#nav-conocenos{
   color: white;
 }
 
@@ -134,7 +146,33 @@ p{
   color: rgb(0, 0, 0);
 }
 
+/* funcionamiento */
+#funcionamiento{
+  margin: 10px 10px;
+  margin: rgb(57, 112, 57);
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+#funcionamiento svg{
+  width: 50px;
+  height:50px;
+  color: grey;
+}
+
+#funcionamiento p{
+  margin: 10px;
+  padding: 5px;
+}
+
+
 /* Seccion planes */
+
+#planes{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
 
 .planes-text1{
   margin-top: 20px;
@@ -162,6 +200,29 @@ section img{
   font-size: large;
 }
 
+/* Contactanos */
+#contactanos{
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+#contactanos h1,p{
+  text-align: center;
+}
+
+#contactanos p{
+  font-size: 30px;
+}
+
+#contactanos svg{
+  width: 50px;
+  height: 50px;
+  color: greenyellow;
+}
+
+
+
 /* FOOTER */
 footer{
   background-color: black;
@@ -172,8 +233,7 @@ footer{
 .container_footer{
   text-align: center;
   align-items: center;
-  margin: 30px 30px 30px 30px;
-  padding: 100px;
+  padding: 50px;
 }
 
 .redes{
